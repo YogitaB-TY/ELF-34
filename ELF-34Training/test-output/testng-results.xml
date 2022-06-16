@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[FAIL: USer is not logged in]]>
+    </line>
+    <line>
+      <![CDATA[PASS: User is logged in]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-06-14T14:52:42 IST" name="Failed suite [Default suite]" finished-at="2022-06-14T14:53:03 IST" duration-ms="21168">
+    <groups>
+    </groups>
+    <test started-at="2022-06-14T14:52:42 IST" name="Default test(failed)" finished-at="2022-06-14T14:53:03 IST" duration-ms="21168">
+      <class name="testScripts.LoginTC">
+        <test-method is-config="true" signature="openChrome(java.lang.String)[pri:0, instance:testScripts.LoginTC@4bb33f74]" started-at="2022-06-14T14:52:42 IST" name="openChrome" finished-at="2022-06-14T14:52:44 IST" duration-ms="1868" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openChrome -->
+        <test-method signature="TC_01(java.lang.String,java.lang.String)[pri:0, instance:testScripts.LoginTC@4bb33f74]" started-at="2022-06-14T14:52:45 IST" name="TC_01" data-provider="testData" finished-at="2022-06-14T14:53:00 IST" duration-ms="14764" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[djbnjbvc@hgffere.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.47852369E8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[FAIL: USer is not logged in]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_01 -->
+        <test-method signature="TC_01(java.lang.String,java.lang.String)[pri:0, instance:testScripts.LoginTC@4bb33f74]" started-at="2022-06-14T14:53:00 IST" name="TC_01" data-provider="testData" finished-at="2022-06-14T14:53:02 IST" duration-ms="2667" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jnjhbv@hiuh.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[register-button]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PASS: User is logged in]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_01 -->
+        <test-method is-config="true" signature="closeChrome()[pri:0, instance:testScripts.LoginTC@4bb33f74]" started-at="2022-06-14T14:53:02 IST" name="closeChrome" finished-at="2022-06-14T14:53:03 IST" duration-ms="522" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeChrome -->
+      </class> <!-- testScripts.LoginTC -->
+    </test> <!-- Default test(failed) -->
+  </suite> <!-- Failed suite [Default suite] -->
+</testng-results>
